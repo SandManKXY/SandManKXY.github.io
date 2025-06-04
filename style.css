@@ -1,0 +1,50 @@
+body {
+  background: #121212;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.player {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(255,255,255,0.1);
+  text-align: center;
+  width: 300px;
+  transition: background 0.5s;
+}
+
+.player img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  margin: 5px 0;
+}
+
+.controles button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.controles button:hover {
+  transform: scale(2.0);
+}
+
+#barra {
+  width: 100%;
+  margin-top: 15px;
+}
